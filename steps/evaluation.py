@@ -4,7 +4,7 @@ from zenml import step
 
 
 @step
-def evaluation(df: pd.DataFrame) -> None:
+def evaluate_model(df: pd.DataFrame) -> None:
     """ 
     Evaluates the model on the ingested data.
     Args: 
